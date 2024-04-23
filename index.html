@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no"
+    />
+    <title>Art.</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting-cells.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section class="loading-page">
+      <div class="site-teaser">
+        <span>loading.... </span>
+      </div>
+      <div class="circles">
+        <div class="circle circle-outer"></div>
+        <div class="circle circle-inner"></div>
+        <div class="circle circle-inner-rotator"></div>
+        <div class="block"></div>
+      </div>
+      <div class="percent">100%</div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <div class="container">
+        <h1>H <span>i.</span></h1>
+      </div>
+    </section>
+
+    <header class="navbar">
+      <div class="logo">
+        <h1>
+          L
+          <span>o</span>
+          G
+          <span>o.</span>
+        </h1>
+      </div>
+      <div class="navs">
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <ion-icon name="menu-outline" id="menu"></ion-icon>
+      </div>
+    </header>
+    <main class="app">
+      <section class="slider-content">
+        <div class="slide-number">
+          <div class="prefix">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+          </div>
+          <div class="postfix"><span>/</span> 5</div>
+        </div>
+
+        <div class="slide-name">
+          <div class="names">
+            <div>Milad Fakurian</div>
+            <div>Esmihel Muhammad</div>
+            <div>Warren Umoh</div>
+            <div>Resource Database</div>
+            <div>8machine _</div>
+          </div>
+        </div>
+
+        <div class="slide-year">
+          <div class="years">
+            <div>2023</div>
+            <div>2021</div>
+            <div>2022</div>
+            <div>2021</div>
+            <div>2023</div>
+          </div>
+        </div>
+      </section>
+      <div class="slider">
+        <div class="slide" id="slide-1">
+          <img src="./images/1.jpg" alt="" />
+        </div>
+        <div class="slide" id="slide-2">
+          <img src="./images/2.jpg" alt="" />
+        </div>
+        <div class="slide" id="slide-3">
+          <img src="./images/3.jpg" alt="" />
+        </div>
+        <div class="slide" id="slide-4">
+          <img src="./images/4.jpg" alt="" />
+        </div>
+        <div class="slide" id="slide-5">
+          <img src="./images/5.jpg" alt="" />
+        </div>
+        <!-- <div style="height: 400vh"></div> -->
+      </div>
+    </main>
+    <section class="wrap">
+      <div class="title-2">
+        <h2 class="title-2-text" data-splitting>
+          text animation <span class="stroke"> on gsap</span>
+        </h2>
+        <div class="title-img">
+          <img src="images/title-1.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="textanim">
+        <div class="textanim-item">
+          <h2 class="textanim-title" data-splitting>
+            <span class="textanim-item-span"
+              >New arrival <span class="stroke">new thing</span></span
+            >
+          </h2>
+          <div class="textanim-item-img">
+            <img src="images/title-2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="textanim">
+        <div class="textanim-item">
+          <h2 class="textanim-title" data-splitting>
+            <span class="textanim-item-span"
+              >New arrival <span class="stroke">new thing</span></span
+            >
+          </h2>
+          <div class="textanim-item-img">
+            <img src="images/title-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
